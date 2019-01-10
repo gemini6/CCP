@@ -1,0 +1,2 @@
+# CCP
+A clipboard manager
