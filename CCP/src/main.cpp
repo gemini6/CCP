@@ -3,7 +3,7 @@
 #using <System.dll>
 
 #include "main.h"
-#include "init.h"
+#include "initializer.h"
 
 int main(void) {
     Inintializer^ initializer = (gcnew Initializer());

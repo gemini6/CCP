@@ -18,7 +18,7 @@ Initializer::~Initializer() {
 }
 
 void Initializer::init(void) {
-    initializer_context = (gcnew ApplicationContext());
+    ApplicationContext^ initializer_context = (gcnew ApplicationContext());
     initializer_context->MainForm = (gcnew CCP::gui());
     Application::Run(initializer_context);
 }
