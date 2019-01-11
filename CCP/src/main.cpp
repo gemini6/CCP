@@ -6,6 +6,6 @@
 #include "initializer.h"
 
 int main(void) {
-    Inintializer^ initializer = (gcnew Initializer());
+    Initializer^ initializer = (gcnew Initializer());
     return 0;
 }

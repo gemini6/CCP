@@ -10,8 +10,9 @@ protected:
     virtual ~Initializer();
 
 private:
-    void init();
-    hey tia
+    System::Windows::Forms::ApplicationContext^ ccp_context;
+    void init(void);
+   
 };
 
 #endif // INITIALIZER_H
